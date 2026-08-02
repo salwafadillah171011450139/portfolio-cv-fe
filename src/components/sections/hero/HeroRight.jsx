@@ -1,15 +1,17 @@
+import GlowCircle from "./right/GlowCircle";
+import ProfileImage from "./right/ProfileImage";
+import HeroStats from "./right/HeroStats";
+
 function HeroRight() {
   return (
-    <div className="flex justify-center">
-      <div
-        className="
-          h-96
-          w-96
-          rounded-full
-          border-4
-          border-cyan-400
-        "
-      />
+    <div className="relative flex items-center justify-center">
+
+      <GlowCircle />
+
+      <ProfileImage />
+
+      <HeroStats />
+
     </div>
   );
 }
