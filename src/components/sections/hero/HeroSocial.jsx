@@ -10,22 +10,22 @@ const socials = [
   {
     id: "github",
     icon: FaGithub,
-    url: "https://github.com/username",
+    url: "https://github.com/salwafadillah171011450139",
   },
   {
     id: "linkedin",
     icon: FaLinkedin,
-    url: "https://linkedin.com/in/username",
+    url: "https://www.linkedin.com/in/salwa-fadillah-backendeveloper/",
   },
   {
     id: "instagram",
     icon: FaInstagram,
-    url: "https://instagram.com/username",
+    url: "https://www.instagram.com/salwa_ubaidillah?igsh=MWk3cWg4aDVkYjNhOQ==",
   },
   {
     id: "email",
     icon: MdEmail,
-    url: "mailto:email@gmail.com",
+    url: "gmailto:salwafadillah3@gmail.com",
   },
 ];
 

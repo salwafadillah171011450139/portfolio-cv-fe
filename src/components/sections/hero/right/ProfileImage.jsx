@@ -6,7 +6,15 @@ function ProfileImage() {
       <img
         src={profile.image}
         alt={`${profile.firstName} ${profile.lastName}`}
-        className="h-80 w-80 rounded-full border-4 border-cyan-400 object-cover"
+        className="
+          h-[360px]
+          w-[360px]
+          rounded-full
+          object-cover
+          border-[3px]
+          border-cyan-400
+          shadow-[0_0_80px_rgba(34,211,238,.35)]
+        "
       />
     </div>
   );

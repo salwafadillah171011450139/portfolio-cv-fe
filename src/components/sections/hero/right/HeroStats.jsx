@@ -1,14 +1,19 @@
 import { heroStats } from "../../../../constants/heroStats";
+import FloatingCard from "../../../common/FloatingCard";
+
 function HeroStats() {
   return (
-    <div>
+    <>
       {heroStats.map((stat) => (
-        <div key={stat.id}>
-          <h3>{stat.value}</h3>
-          <p>{stat.label}</p>
-        </div>
+        <FloatingCard
+          key={stat.id}
+          icon={stat.icon}
+          value={stat.value}
+          label={stat.label}
+          className={stat.className}
+        />
       ))}
-    </div>
+    </>
   );
 }
 

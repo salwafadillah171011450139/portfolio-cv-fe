@@ -9,3 +9,8 @@ body {
    font-family: "Poppins", sans-serif;
   background: #07141A;
 }
+.dashed-circle {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: rgba(34, 211, 238, 0.15);
+}

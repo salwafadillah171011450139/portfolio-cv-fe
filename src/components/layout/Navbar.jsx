@@ -21,11 +21,11 @@ function Navbar() {
             text-black
           "
           >
-            M
+            SF
           </div>
 
           <h1 className="text-2xl font-bold text-white">
-            Muhammad.
+            SalwaF.
           </h1>
 
         </div>

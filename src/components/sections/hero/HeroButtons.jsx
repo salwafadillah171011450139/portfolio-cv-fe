@@ -3,11 +3,24 @@ import Button from "../../common/Button";
 function HeroButtons() {
   return (
     <div className="mt-10 flex flex-wrap gap-4">
-      <Button>
+      <Button
+        onClick={() =>
+          document
+            .getElementById("contact")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
+      >
         Hire Me
       </Button>
 
-      <Button variant="outline">
+      <Button
+        variant="outline"
+        onClick={() =>
+          document
+            .getElementById("projects")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
+      >
         View Projects
       </Button>
     </div>
