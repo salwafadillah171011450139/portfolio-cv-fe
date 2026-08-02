@@ -1,11 +1,11 @@
 import Navbar from "../../components/layout/Navbar";
+import Hero from "../../components/sections/hero/Hero";
 
 function Home() {
   return (
-    <main className="min-h-screen bg-[#07141A] text-white">
-
+    <main className="bg-[#07141A] text-white">
       <Navbar />
-
+      <Hero />
     </main>
   );
 }
